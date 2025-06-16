@@ -101,7 +101,6 @@ body {
   text-align: left;
 }
 
-
 .card-1 {
   width: 193px;
   height: 98px;
@@ -111,27 +110,62 @@ body {
   backdrop-filter: blur(20px);
   background: rgba(255, 255, 255, 0.1);
   text-align: center;
-  align-items: center; 
+  align-items: center;
   position: absolute;
   top: 25%;
   left: 65%;
 }
-.box-2{
-    width: 206px;
-height: 96px;
-box-sizing: border-box;
-border: 1px solid rgba(255, 255, 255, 0.1);
-border-radius: 12px;
-backdrop-filter: blur(20px);
-background: rgba(48, 48, 48, 0.54);
-text-align: center;
+.box-2 {
+  width: 206px;
+  height: 96px;
+  box-sizing: border-box;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  backdrop-filter: blur(20px);
+  background: rgba(48, 48, 48, 0.54);
+  text-align: center;
 
-position: absolute;
-top: 70%;
-right: 60%;
+  position: absolute;
+  top: 70%;
+  right: 60%;
 }
-.banner-image{
-    position: relative;
-    margin-left: 100px;
+.banner-image {
+  position: relative;
+  margin-left: 100px;
+}
+/* Change Your habit Section  */
+.change-your-habit {
+  text-align: center;
+}
+.habit-title {
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 900;
+}
+.habit-des {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+}
+.change-habit-section-card{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.change-habit-section-card img{
+    border-radius: 50%;
+}
+.Practice{
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 18px;
+font-weight: 600;
 
+}
+.DES{
+    color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 14px;
+font-weight: 400;
 }
